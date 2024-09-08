@@ -1,8 +1,33 @@
-# React + Vite
+# Tesla UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the Assignment submittion, Tech used to built this website is  React,React-router, tailwind, shadcn and mock server using Miragejs.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+Follow the steps below to set up the project locally on your machine.
+
+### Prerequisites
+
+Ensure you have the following software installed:
+
+- **Node.js**: Download and install from [nodejs.org](https://nodejs.org/)
+- **npm**: Node package manager, typically installed with Node.js
+- **rpm**: Required for installing any additional packages (if applicable)
+
+### Steps to Install
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/tesla-ui.git
+   cd tesla-ui
+   npm install
+   npm run dev
