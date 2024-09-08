@@ -7,18 +7,59 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+.out/
+build/
+
+# Local environment files
+*.env
 *.local
 
-# Editor directories and files
+# IDE and Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Miscellaneous
+.tmp/
+.cache/
+coverage/
+
+# Tailwind CSS
+tailwind.config.js
+postcss.config.js
+
+# React specific
+.eslintcache
+
+# Next.js specific
+.next/
+
+# Parcel-bundler
+.cache/
+.parcel-cache/
+
+# Storybook files
+.storybook/
+*.stories.js
+*.stories.jsx
+*.stories.ts
+*.stories.tsx
+
+# Cypress files
+cypress/
+cypress.json
+cypress.env.json
+
+# Typescript
