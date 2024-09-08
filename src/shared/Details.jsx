@@ -109,7 +109,7 @@ export default function Deatils() {
                                             <button type="button" className="w-10 h-10 bg-blue-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0 transition-all"></button>
                                         </div>
                                     </div>
-                                    <button type="button" className="min-w-[400px] px-4 py-3 mt-6 bg-gray-800 hover:bg-gray-900 text-white text-sm font-semibold rounded" onClick={handleClick}>Buy now</button>
+                                    <button type="button" className="md:min-w-[400px] sm:min-w-[300px] px-4 py-3 mt-6 bg-gray-800 hover:bg-gray-900 text-white text-sm font-semibold rounded" onClick={handleClick}>Buy now</button>
                                 </div>
                             </div>
 
